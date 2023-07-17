@@ -1,0 +1,56 @@
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+
+  .course-card {
+    width: 100%;
+    padding: 10px;
+  }
+
+  #courseContainer {
+    grid-template-columns: 1fr;
+  }
+
+  #contactForm, #purchaseButton {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  body {
+    font-size: 20px;
+  }
+
+  .course-card {
+    width: 45%;
+    padding: 20px;
+  }
+
+  #courseContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #contactForm, #purchaseButton {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  body {
+    font-size: 22px;
+  }
+
+  .course-card {
+    width: 30%;
+    padding: 30px;
+  }
+
+  #courseContainer {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #contactForm, #purchaseButton {
+    width: 33.33%;
+  }
+}

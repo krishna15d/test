@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../img/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.header img {
+    height: 80px;
+}
+
+.course-card {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.course-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.course-card img {
+    width: 100%;
+    height: auto;
+}
+
+.course-card button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.course-card button:hover {
+    opacity:1;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+}
